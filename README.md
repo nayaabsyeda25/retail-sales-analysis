@@ -18,7 +18,8 @@ This project analyzes transactional data from a UK‑based online retail company
 ---
 
 ## 📊 Dataset Details
-- Source: UCI Machine Learning Repository (Online Retail Dataset)  
+- Source: Kaggle — E-Commerce Data
+- Link: https://www.kaggle.com/datasets/carrie1/ecommerce-data
 - Subset Used: 51,348 rows  
 - Time Period: Dec 2010 – Jan 2011  
 - Columns: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country  
