@@ -2,7 +2,7 @@
 -- Project: Retail Sales Analysis
 -- File: Business Analysis
 -- Author: Nayaab
--- Date: May 2025
+-- Date: May 2026
 -- ================================================
 
 -- ================================================
@@ -16,8 +16,9 @@ WHERE TransactionType = 'Purchase'
 AND Quantity > 0 
 AND UnitPrice IS NOT NULL;
 
--- Insight: Total revenue from valid purchase transactions is 
--- approximately £973k, heavily concentrated in December 2010.
+-- Insight: Total valid sales revenue reached approximately £973k.
+-- Revenue is highly concentrated in December 2010 , accounting for 845 of the total sales, indicating strong holiday seaaon demand 
+-- and dataset skew towards the festival period.
 
 -- ================================================
 
@@ -34,9 +35,8 @@ AND UnitPrice IS NOT NULL
 GROUP BY month
 ORDER BY sort_date;
 
--- Insight: December 2010 generated £823,746 (84% of total revenue).
--- January 2011 dropped sharply to £149,487, reflecting a typical
--- post-holiday slowdown.
+-- Insight: December 2010 was the peak revenue month at £823k, followed by a sharp decline in January 2011 to £149k.
+-- This pattern reflects typical post-holiday consumer behavior and confirms the seasonal naturem of the business. 
 
 -- ================================================
 -- GEOGRAPHIC ANALYSIS
@@ -63,9 +63,10 @@ ranked_countries AS (
 SELECT * FROM ranked_countries
 WHERE revenue_rank <= 10;
 
--- Insight: United Kingdom generates the majority of total revenue,
--- consistent with the company being a UK-based retailer serving
--- domestic wholesale customers.
+-- Insight: The United Kingdom dominates revenue generation,
+-- contributing over 80% of total sales. This heavy reliance on
+-- domestic customers represents both a strength and a concentration risk
+-- for the business.
 
 -- ================================================
 
@@ -91,9 +92,10 @@ AND Quantity > 0
 AND UnitPrice IS NOT NULL
 GROUP BY region;
 
--- Insight: UK dominates revenue share. International sales represent
--- a smaller but diversified segment, indicating growth opportunity
--- in international markets.
+-- Insight: International markets collectively contribute less than 20%
+-- of total revenue despite spanning multiple countries.
+-- This indicates a significant growth opportunity through international
+-- market expansion and targeted marketing strategies.
 
 -- ================================================
 
@@ -117,9 +119,9 @@ FROM order_value
 GROUP BY Country
 ORDER BY avg_order_value DESC;
 
--- Insight: Average order value varies significantly by country.
--- Higher values in certain international markets suggest
--- wholesale purchasing behaviour.
+-- Insight: Certain international markets demonstrate higher average
+-- order values than the UK, suggesting bulk purchasing behaviour
+-- consistent with wholesale customers placing large, consolidated orders.
 
 -- ================================================
 -- PRODUCT ANALYSIS
