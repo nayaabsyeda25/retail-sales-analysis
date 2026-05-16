@@ -40,18 +40,44 @@ This project analyzes transactional data from a UK‑based online retail company
 
 ## 🧠 SQL Concepts Used
 
-- Data Type Conversion — ALTER TABLE, MODIFY
-- Data Cleaning — TRIM, UPPER, UPDATE, STR_TO_DATE
-- Aggregations — SUM, COUNT, ROUND, AVG
-- Filtering — WHERE, IS NULL, IS NOT NULL
-- Grouping — GROUP BY, ORDER BY, LIMIT
-- CASE Statements — UK vs International classification, transaction type flagging
-- Date Functions — DATE_FORMAT, STR_TO_DATE
-- Subqueries — percentage calculation
-- String Functions — TRIM, UPPER
-- Common Table Expressions (CTEs) — multi-step analysis and readability
-- Window Functions — RANK() for ranking countries, products and customers
-- Ranking Functions — RANK() OVER (ORDER BY ...)
+### Data Cleaning & Preprocessing
+- ALTER TABLE, MODIFY
+- UPDATE
+- TRIM()
+- UPPER()
+- STR_TO_DATE()
+- NULL handling
+
+### Aggregations & Analysis
+- SUM()
+- COUNT()
+- AVG()
+- ROUND()
+- GROUP BY
+- ORDER BY
+- LIMIT
+
+### Filtering & Conditional Logic
+- WHERE
+- IS NULL / IS NOT NULL
+- CASE WHEN
+
+### Date Functions
+- DATE_FORMAT()
+- STR_TO_DATE()
+
+### Advanced SQL
+- Common Table Expressions (CTEs)
+- Window Functions
+- RANK() OVER()
+- Subqueries
+
+### Business Analysis Techniques
+- Customer segmentation
+- Revenue analysis
+- Geographic analysis
+- Product performance analysis
+- Return analysis
 
 ---
 
