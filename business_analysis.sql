@@ -10,7 +10,7 @@ AND Quantity > 0
 AND UnitPrice IS NOT NULL;
 
 -- Insight: Total valid sales revenue reached approximately £973k.
--- Revenue is highly concentrated in December 2010 , accounting for 845 of the total sales, indicating strong holiday seaaon demand 
+-- Revenue is highly concentrated in December 2010 , accounting for 84.5% of the total sales, indicating strong holiday seaaon demand 
 -- and dataset skew towards the festival period.
 
 -- ================================================
