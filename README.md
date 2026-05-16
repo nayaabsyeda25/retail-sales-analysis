@@ -122,7 +122,7 @@ This project analyzes transactional data from a UK‑based online retail company
 - ✅ Database rebuild + 51k‑row dataset import  
 - ✅ Data cleaning & preprocessing  
 - ✅ Business analysis queries completed  
-- ⬜ Pandas analysis — in progress
+- ✅ Pandas analysis
 - ⬜ Excel analysis
 - ⬜ Dashboard development
 
