@@ -1,6 +1,6 @@
 ## 🛍️ Retail Sales Analysis
 
-An end-to-end retail analytics project using **MySQL, Python (Pandas), Excel, and Power BI** to analyze transactional sales data from a UK-based online retailer.
+An end-to-end retail analytics project using **MySQL, Python and Power BI** to analyze transactional sales data from a UK-based online retailer.
 
 The project covers the complete analytics workflow — from **data cleaning and preprocessing** to **business analysis, exploratory data analysis (EDA), and dashboard development**. The analysis focuses on revenue trends, customer behaviour, product performance, returns, and geographic sales distribution to generate actionable business insights.
 
@@ -23,10 +23,8 @@ This project aims to:
 
 - **MySQL** → Data cleaning, preprocessing, business analysis
 - **Python (Pandas, NumPy)** → Exploratory Data Analysis (EDA)
-- **Excel** → Additional analysis & validation
 - **Power BI** → Dashboard development & visualization
 - **GitHub** → Version control & project documentation
-
 
 ---
 
@@ -163,7 +161,6 @@ The dataset primarily covers holiday-season transactions, meaning findings may o
 - ✅ Data cleaning & preprocessing  
 - ✅ Business analysis queries completed  
 - ✅ Pandas analysis
-- ⬜ Excel analysis
 - ⬜ Dashboard development
 
 ---
