@@ -146,13 +146,13 @@ The dataset primarily covers holiday-season transactions, meaning findings may o
 ---
 
 ## 🧑‍💻 Skills Demonstrated
-- Data Cleaning & Preprocessing  
-- Exploratory Data Analysis (EDA)  
-- SQL Query Optimization  
-- Business Insight Generation  
-- Data Visualization (Power BI)  
-- Dashboard Development  
-- Data Quality Assessment  
+- Data Cleaning & Preprocessing
+- Exploratory Data Analysis (EDA)
+- Advanced SQL (CTEs, Window Functions, Ranking Functions)
+- Business Insight Generation
+- Data Validation & Quality Checks
+- Data Visualization (Power BI)
+-  Dashboard Development
 
 ---
 
