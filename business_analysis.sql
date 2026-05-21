@@ -7,7 +7,7 @@ SELECT ROUND(SUM(Quantity * UnitPrice), 2) AS total_revenue
 FROM retail_data
 WHERE TransactionType = 'Purchase'
 AND Quantity > 0 
-AND UnitPrice IS NOT NULL:
+AND UnitPrice IS NOT NULL;
 
 -- Insight: Total valid sales revenue reached approximately £973k.
 -- Revenue is highly concentrated in December 2010 , accounting for 84.5% of the total sales, indicating strong holiday seaaon demand 
