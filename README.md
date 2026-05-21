@@ -1,8 +1,8 @@
 ## 🛍️ Retail Sales Analysis
 
-An end-to-end retail analytics project using **MySQL, Python and Power BI** to analyze transactional sales data from a UK-based online retailer.
+An end-to-end retail analytics project using **MySQL and Python (Pandas)** to analyze transactional sales data from a UK-based online retailer.
 
-The project covers the complete analytics workflow — from **data cleaning and preprocessing** to **business analysis, exploratory data analysis (EDA), and dashboard development**. The analysis focuses on revenue trends, customer behaviour, product performance, returns, and geographic sales distribution to generate actionable business insights.
+The project covers the complete analytics workflow — from **data cleaning and preprocessing** to **business analysis** and **exploratory data analysis (EDA)**. The analysis focuses on revenue trends, customer behaviour, product performance, returns, and geographic sales distribution to generate actionable business insights.
 
 ---
 
@@ -15,7 +15,6 @@ This project aims to:
 - Identify high-value customers and purchasing behaviour
 - Evaluate product demand and return patterns
 - Compare domestic (UK) vs international market performance
-- Build interactive dashboards to communicate findings
 
 ---
 
@@ -23,9 +22,8 @@ This project aims to:
 
 - **MySQL** → Data cleaning, preprocessing, business analysis
 - **Python (Pandas, NumPy)** → Exploratory Data Analysis (EDA)
-- **Power BI** → Dashboard development & visualization
 - **GitHub** → Version control & project documentation
-
+- 
 ---
 
 ## 📊 Dataset Details
@@ -135,24 +133,18 @@ The dataset primarily covers holiday-season transactions, meaning findings may o
 ## 📂 Project Files
 - data_cleaning.sql — SQL cleaning queries  
 - business_analysis.sql — Business analysis queries  
-- retail_analysis.py — Python/Pandas analysis  
-- retail_dashboard.pbix — Power BI dashboard  
-
----
-
-## 📊 Dashboard Preview
-(Add Power BI screenshots here)  
+- retail_analysis.py — Python/Pandas analysis    
 
 ---
 
 ## 🧑‍💻 Skills Demonstrated
 - Data Cleaning & Preprocessing
+- Missing Values Analysis
 - Exploratory Data Analysis (EDA)
 - Advanced SQL (CTEs, Window Functions, Ranking Functions)
 - Business Insight Generation
-- Data Validation & Quality Checks
-- Data Visualization (Power BI)
--  Dashboard Development
+- Python(Pandas) for Data Analysis
+- 
 
 ---
 
@@ -161,6 +153,6 @@ The dataset primarily covers holiday-season transactions, meaning findings may o
 - ✅ Data cleaning & preprocessing  
 - ✅ Business analysis queries completed  
 - ✅ Pandas analysis
-- ⬜ Dashboard development
+  
 
 ---
