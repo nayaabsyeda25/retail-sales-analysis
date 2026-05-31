@@ -131,13 +131,8 @@ This project aims to:
 
 ## 📊 Dashboard Preview
 
+<img width="1040" height="560" alt="Screenshot 2026-05-30 044548" src="https://github.com/user-attachments/assets/0f1e4495-e036-4601-bd1a-5d5ad0036f3b" />
 
-
-![Retail Sales Dashboard](dashboard_screenshot.png)
-
-
-
-> 🔗 **View Interactive Dashboard:** [Power BI Link](Add Power BI Service link here)
 
 ---
 
