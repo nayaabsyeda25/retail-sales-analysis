@@ -42,12 +42,19 @@ This project aims to:
 🧹 Data Cleaning Summary
 
 • Total records analyzed: 51,348
+
 • Missing Customer IDs: 18,546 rows (36%) → excluded from customer-level analysis
+
 • Invalid prices: 303 rows with UnitPrice = 0 → treated as invalid
+
 • Returns: 1,021 rows (~2%) → flagged and excluded from revenue calculations
+
 • Blank descriptions: 145 rows → converted to NULL
+
 • Standardisation: Text fields trimmed and converted to uppercase
+
 • Data type corrections: Converted numeric and date columns to proper types
+
 • Transaction classification: Flagged purchases vs returns using TransactionType column
 
 ---
