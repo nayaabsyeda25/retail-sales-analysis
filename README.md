@@ -131,7 +131,8 @@ This project aims to:
 
 ## 📊 Dashboard Preview
 
-<img width="950" height="480" alt="Screenshot 2026-05-30 044548" src="https://github.com/user-attachments/assets/0f1e4495-e036-4601-bd1a-5d5ad0036f3b" />
+<img width="740" height="559" alt="Screenshot 2026-06-02 113341" src="https://github.com/user-attachments/assets/15938195-3c28-40a9-a72a-12807b4a3027" />
+
 
 
 ---
